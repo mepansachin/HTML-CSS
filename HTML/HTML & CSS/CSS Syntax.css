@@ -1,0 +1,25 @@
+body{
+    background-color: #0099cc;
+}
+h1{
+    color: coral;
+}
+h2{
+    color: blueviolet;
+}
+ul em{
+    color: brown;
+}
+ul{
+    color: salmon;
+}
+.para{
+    color: deeppink;
+    
+}
+h3{
+    color: red;
+}
+input[type ="text"]{
+    color: blueviolet;
+}

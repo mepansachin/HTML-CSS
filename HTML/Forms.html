@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Exmaple</title>
+    </head>
+    <body bgcolor = "skyblue">
+        <form>
+            First Name: <input type="text" name="first_name">
+            <br><br>
+            Last Name: <input type="text" name="last_name">
+            <br><br>
+            User Name: <input type="text" name="user_name">
+            <br><br>
+            Password: <input type="password" name="password">
+            <br><br>
+            Description :<br>
+            <textarea name="discription" cols="50" rows="5">
+                Enter discription here...
+            </textarea>
+            <br><br>
+            <input type="checkbox" name="ssc" value="on">SSC
+            <input type="checkbox" name="hsc" value="on">HSC
+            <input type="checkbox" name="diploma" value="on">Diploma
+            <br><br>
+            <input type="radio" name="subject" value="male">Male
+            <input type="radio" name="subject" value="female">female
+            <br><br>
+            District :<br>
+            <select name="dropdown">
+                <option value="select_district" selected>Select District</option>
+                <option value="aurangabad">Aurangabad</option>
+                <option value="jalna">Jalna</option>
+                <option value="latur">Latur</option>
+                <option value="pune">Pune</option>
+            </select>
+            <br><br>
+            Upload Passposrt size photo: <br>
+            <input type="file" name="fileupload" accept="image/*">
+            <br><br>
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" value="Reset" />
+            <input type="button" name="ok" value="OK" /><br><br>
+            <input type="image" name="imagebutton" src="images/hello.jpg" width="200px" height="200px">
+        </form>
+    </body>
+</html>
