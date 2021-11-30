@@ -1,0 +1,11 @@
+.different{
+    border: 2px solid;
+    border-bottom-color: brown;
+    border-top-color: red;
+    border-left-color: greenyellow;
+    border-right-color: blue;
+}
+.same{
+    border: 2px solid;
+    border-color: indigo;
+}
