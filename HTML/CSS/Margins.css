@@ -1,0 +1,16 @@
+.normal{
+    margin: 15px;
+    border:1px solid red;
+}
+.one{
+    margin: 10px 2%;
+    border:1px solid green;
+}
+.two{
+    margin: 10px 2% -10;
+    border:1px solid blue;
+}
+.three{
+    margin: 10px 2% -10 auto;
+    border:1px solid yellow;
+}
