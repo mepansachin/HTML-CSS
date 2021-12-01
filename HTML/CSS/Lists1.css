@@ -1,0 +1,18 @@
+#circle{
+    list-style-type:circle;
+    color: red;
+    list-style-position: inside;
+}
+#square{
+    list-style-type:square;
+    color: green;
+    list-style-position: outside;
+}
+#disc{
+    list-style-type:disc;
+    color: blue;
+}
+#none{
+    list-style-type:;
+    
+}
