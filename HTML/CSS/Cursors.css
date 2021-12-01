@@ -1,0 +1,30 @@
+#auto{
+    cursor: auto;
+}
+#crosshair{
+    cursor: crosshair;
+}
+#default{
+    cursor: default;
+}
+#pointer{
+    cursor: pointer;
+}
+#move{
+    cursor: move;
+}
+#e{
+    cursor: e-resize;
+}
+#ne{
+    cursor: ne-resize;
+}
+#text{
+    cursor: text;
+}
+#wait{
+    cursor: wait;
+}
+#help{
+   cursor: help; 
+}

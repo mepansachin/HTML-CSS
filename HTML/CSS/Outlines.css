@@ -1,0 +1,25 @@
+.one{
+    outline-style: dashed;
+    outline-width: 5px;
+    outline-color: blueviolet;
+}
+.two{
+    outline-style: dotted;
+    outline-width: 5px;
+    outline-color: lime;
+}
+.three{
+    outline-style: groove;
+    outline-width: 5px;
+    outline-color: pink;
+}
+.four{
+    outline-style: double;
+    outline-width: 5px;
+    outline-color: yellow;
+}
+.five{
+    outline-style: inset;
+    outline-width: 5px;
+    outline-color: rebeccapurple;
+}

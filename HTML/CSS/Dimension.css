@@ -1,0 +1,12 @@
+.lineheight{
+    line-height: 50px;
+    width: 400px;
+}
+.maxwidth{
+    max-width: fit-content;
+    height: 50px;
+}
+.minheight{
+    min-height: 50px;
+    width: 400px;
+}

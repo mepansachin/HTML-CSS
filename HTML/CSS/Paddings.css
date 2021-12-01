@@ -1,0 +1,25 @@
+#top{
+    padding-top: 15px;
+    color: aqua;
+    border: 1px solid;
+}
+#bottom{
+    padding-bottom: 15px;
+    color: lightcoral;
+    border: 1px solid;
+}
+#left{
+    padding-left: 15px;
+    color:lightgreen;
+    border: 1px solid;
+}
+#right{
+    padding-right: 15px;
+    color: blue;
+    border: 1px solid;
+}
+#all{
+    padding: 15px ;
+    color: red;
+    border: 1px solid;
+}
