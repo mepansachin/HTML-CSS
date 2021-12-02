@@ -3,6 +3,7 @@
     <head>
         <title>Basic Responsive Web Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <style>
             body{
                 background-color: orange;
@@ -10,19 +11,43 @@
             .header{
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 border: 2px solid black;
+                border-radius: 25px;
                 text-align: center;
                 padding: 15px;
             }
             .para{
                 border: 2px solid black;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                
+                border-radius: 25px;
                 padding: 15px;
                 text-align: center;
+            }
+            .alignside{
+                float: left;
+                width: 15%;
+                padding: 5px;
+            }
+            .sidebyside::after{
+                content: "";
+                clear: both;
+                display: flex;
             }
             .picture{
                 width: 100%;
                 height: auto;
+            }
+            .picture2{
+                width: 100%;
+                border: 2px solid black;
+                border-radius: 150px;
+                
+            }
+            .names{
+                width: 15%;
+                text-align: center;
+                margin: left;
+                border-radius: 25px;
+
             }
         </style>
     </head>
@@ -35,6 +60,35 @@
             including Paddy Considine as King Viserys Targaryen, Emma D’Arcy as Princess Rhaenyra Targaryen, Matt Smith as Prince Daemon Targaryen,
              Olivia Cooke as Alicent Hightower, Steve Toussaint as Lord Corlys Velaryon, and Sonoya Mizuno as Prince Daemon’s ally Mysaria.
             </P>
-        <img src="https://img.etimg.com/thumb/msid-77083638,width-650,imgsize-392489,,resizemode-4,quality-100/house-of-the-dragon-replaces-hbos-previously-announced-but-now-scrapped-prequel-project-starring-naomi-watts-.jpg" alt="got" class="picture">
+        <img src="https://img.etimg.com/thumb/msid-77083638,width-650,imgsize-392489,,resizemode-4,quality-100/house-of-the-dragon-replaces-hbos-previously-announced-but-now-scrapped-prequel-project-starring-naomi-watts-.jpg" alt="got1" class="picture">
+        
+        <p class="para">
+            Cast of House of Dragon
+        </p>
+        <div class="sidebyside">
+        <div class="alignside">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Matt_Smith_by_Gage_Skidmore_3.jpg/800px-Matt_Smith_by_Gage_Skidmore_3.jpg" alt="got2" class="picture2" width="350" height="230">
+        </div>
+        <div class="names">
+            <h4>Matt Smith</h4>
+            <h4>(aka Daemon Targaryen)</h4>
+        </div>
+        <div class="alignside">
+        <img src="https://i.redd.it/i46doxylb0561.png" alt="got3" class="picture2" width="350" height="230">
+        </div>
+        <div class="names">
+            <h4>Emma D'Arcy</h4>
+            <h4>(aka Rhaenyra Targaryen)</h4>
+        </div>
+        <div class="alignside">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSquVWwfyKcP_MqlebVlSm-eRBukn_GVCRvotErJWofDajLcN4E" alt="got3" class="picture2" width="350" height="230">
+        </div>
+        <div class="names">
+            <h4>Paddy Considine</h4>
+            <h4>(aka Viserys Targaryen)</h4>
+        </div>
+        </div>
+
+
     </body>
 </html>
